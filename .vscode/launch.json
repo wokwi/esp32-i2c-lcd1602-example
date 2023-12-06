@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    /* Remote GDB */
+    {
+      "name": "Wokwi GDB",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/esp32-i2c-lcd1602-example.elf",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "${command:espIdf.getXtensaGdb}",
+      "miDebuggerServerAddress": "localhost:3333"
+    }
+  ]
+}
