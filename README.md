@@ -40,6 +40,12 @@ To run this example, connect one LCD1602 device to two GPIOs on the ESP32 (I2C S
 
 Note that the 3.3V supply may be insufficient to run the display satisfactorily. In this case I suggest using a 5V supply to the LCD display, and using appropriate level shifter circuitry on the I2C SCL and SDA connections.
 
+## Simulation
+
+1. Install the [Wokwi for VS Code Extension](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode)
+2. Open this folder in VS Code
+3. Press "F1" and choose "Wokwi: Start Simulator"
+
 ## Features
 
 This example steps through the features of the esp32-i2c-lcd1602 component. It demonstrates:

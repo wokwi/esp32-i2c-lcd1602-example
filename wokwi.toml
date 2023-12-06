@@ -1,0 +1,4 @@
+[wokwi]
+firmware="build/esp32-i2c-lcd1602-example.bin"
+elf="build/esp32-i2c-lcd1602-example.elf"
+gdbServerPort=3333
